@@ -1,0 +1,35 @@
+{
+  "name": "tiendabackend",
+  "version": "1.0.0",
+  "description": "Backend of a Fullstack webapp",
+  "author": "jamj2000 at google dot com",
+  "license": "GPL",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "webapp",
+    "backend",
+    "fullstack"
+  ],
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.6.0",
+    "express": "^4.17.3",
+    "mongoose": "^5.11.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Langdom91/colegio-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Langdom91/colegio-api/issues"
+  },
+  "homepage": "https://github.com/Langdom91/colegio-api#readme"
+}
